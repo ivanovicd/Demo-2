@@ -51,13 +51,13 @@ pageextension 50100 "CustomerListExt" extends "Customer List"
         }
         addlast(Reports)
         {
-            action("Push the button")
+            action("Damjan Push the button")
             {
                 ApplicationArea = All;
                 Image = List;
                 trigger OnAction()
                 begin
-                    Message('Nice');
+                    Message('Nice!');
                 end;
             }
         }
