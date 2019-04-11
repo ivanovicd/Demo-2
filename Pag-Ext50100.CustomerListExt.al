@@ -49,6 +49,18 @@ pageextension 50100 "CustomerListExt" extends "Customer List"
                 end;
             }
         }
+        addlast(Reports)
+        {
+            action("Push the button")
+            {
+                ApplicationArea = All;
+                Image = List;
+                trigger OnAction()
+                begin
+                    Message('Nice');
+                end;
+            }
+        }
     }
     trigger OnOpenPage();
     begin
