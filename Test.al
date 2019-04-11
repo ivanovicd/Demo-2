@@ -9,3 +9,5 @@ Comment
 //This is my (Tom)
 
 //Do you see my changes?
+
+//I can see!
